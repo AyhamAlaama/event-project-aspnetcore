@@ -10,7 +10,7 @@ namespace Event.Api.Controllers.V1
     /// <summary>
     /// 
     /// </summary>
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class EventController : ControllerBase
